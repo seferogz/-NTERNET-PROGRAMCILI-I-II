@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kayseri Tanıtımı</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            text-align: center;
+            background-color: #444;
+        }
+        nav a {
+            padding: 14px 20px;
+            display: inline-block;
+            color: #fff;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+        }
+        nav a:hover {
+            background-color:rgb(62, 122, 122); /* Hover durumunda arka plan rengi değiştirildi */
+        }
+        /* Aqua rengi için a:hover pseudo-class'ı tanımlandı */
+        nav a:hover,
+        nav a:hover::before,
+        nav a:hover::after {
+            color: aqua;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        .photo-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .gallery-item {
+            flex: 1;
+            min-width: 200px;
+            max-width: 300px;
+        }
+        .gallery-img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .grafik {
+            width: 80%;
+            margin: 20px auto;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+        .bar {
+            background-color: #007bff;
+            height: 30px;
+            margin-bottom: 5px;
+            color: #fff;
+            text-align: center;
+            line-height: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Kayseri İli Tanıtımı</h1>
+       
+        
+ </html>
+    
+    <nav>
+        <a href="#anasayfa">Anasayfa</a>
+        <a href="#hakkimizda">Hakkımızda</a>
+        <a href="#dogal-guzellikler">Doğal Güzellikler</a>
+        <a href="#tarihi-ve-kulturel-miras">Tarihi ve Kültürel Miras</a>
+        <a href="#mutfak-lezzeti">Mutfak Lezzeti</a>
+        <a href="#hava-durumu">Hava Durumu</a>
+        <a href="#Grafik">Grafik</a>
+        <a href="#Fotoğraflar">Fotoğraflar</a>
+    </nav>
+</ul>
+<head>
+
+    <title>Web Sitesi Başlıkları</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-position: center;
+        }
+        .menu {
+            list-style-type: none;
+            padding: 0;
+            display: flex; 
+            justify-content: space-around; 
+        }
+        .menu li {
+            margin-bottom: 10px;
+        }
+        .menu li a {
+            display: block;
+            text-decoration: none;
+            padding: 10px;
+            background-color: #f0f0f0;
+            color: #333;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .menu li a:hover {
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <ul class="menu">
+        <li><a href="#" data-title="Üniversiteler" data-content="Kayseri'de toplamda 4 adet üniversite bulunmaktadır sırasıyla şu şekildedir: Erciyes Üniversitesi, Abdullah Gül Üniversitesi, Kayseri Üniversitesi, Nuh Naci Yazgan Üniversitesi." data-image="https://cdn.yenicaggazetesi.com.tr/news/818806.jpg" target="_blank">Üniversiteler</a></li>
+        <li><a href="#" data-title="Sosyal Tesisler" data-content="Kayseri 27 adet sosyal tesisi ile Kayseri halkına oldukça yüksek bir sosyal imkan sunmaktadır. Bunlar: Spor tesisler, Sağlıklı yaşam merkezleri, KAYMEK, Sosyal yaşam merkezleri, Kayak okulları, Yüzme havuzları, Kültür ve sanat merkezleri, Kapalı spor salonları ve Futbol sahaları olarak filtrelenmektedir." data-image="https://fitnessapi.sporaskayseri.com.tr/Uploads/FacilityPhotos/13_637179145639728374.jpg" target="_blank">Sosyal Tesisler</a></li>
+        <li><a href="#" data-title="Ulaşım" data-content="Kayseri'de şehir içi ulaşım otobüs ve tramvaylar eşliğinde, şehirler arası ulaşım ise dolmuş veya otobüsler eşliğinde yapılmaktadır." data-image="https://www.kayseriulasim.com/images/menuresim/3075425699606000.jpg" target="_blank">Ulaşım</a></li>
+        <li><a href="#" data-title="Kayseri İlçe Haritası" data-content="Kayseri'nin mahalleleri, Kayseri ilinin 16 ilçesinde toplam 714 mahalleden oluşmaktadır. Bu ilçeler; İl merkezinde Kocasinan ve Melikgazi ilçeleri, Akkışla, Bünyan, Develi, Felahiye, Hacılar, İncesu, Özvatan, Pınarbaşı, Talas, Sarıoğlan, Sarız, Tomarza, Yahyalı, Yeşilhisar’dır." data-image="https://www.turkiyeharitasi.gen.tr/wp-content/uploads/2020/06/kayseri-siyasi-haritasi-1.png" target="_blank">Kayseri Haritası</a></li>
+    </ul>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const links = document.querySelectorAll('.menu li a');
+
+            links.forEach(link => {
+                link.addEventListener('click', function(event) {
+                    event.preventDefault(); 
+
+                    const title = link.getAttribute('data-title');
+                    const content = link.getAttribute('data-content');
+                    const imageUrl = link.getAttribute('data-image');
+
+                    const newWindow = window.open('', '_blank');
+                    newWindow.document.write(`
+                        <html>
+                        <head>
+                            <title>${title}</title>
+                            <style>
+                                body { 
+                                    font-family: Arial, sans-serif; 
+                                    margin: 20px; 
+                                    background-image: url('https://plus.unsplash.com/premium_photo-1701158347593-ccb2c2ffd597?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+                                    padding: 20px;
+                                    text-align: center;
+                                }
+                                h1 { color: #333; }
+                                p { line-height: 1.6; }
+                                img { max-width: 100%; height: auto; border-radius: 5px; }
+                            </style>
+                        </head>
+                        <body>
+                            <h1>${title}</h1>
+                            <p>${content}</p>
+                            <img src="${imageUrl}" alt="${title}">
+                        </body>
+                        </html>
+                    `);
+                    newWindow.document.close(); 
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+
+<script>
+    var button = document.getElementById("toggleButton");
+    var menu = document.getElementById("menu");
+
+    button.onclick = function() {
+        menu.style.display = (menu.style.display === "block") ? "none" : "block";
+        button.style.backgroundColor = (menu.style.display === "block") ? "white" : "#00FFFF"; 
+        button.style.width = (menu.style.display === "block") ? "200px" : "200px";
+    };
+</script>
+    </header>
+    <section id="anasayfa">
+        <h2>Anasayfa</h2>
+        <ul>
+        <p>Kayseri'nin eşsiz doğal güzellikleri, tarihi zenginlikleri ve kültürel mirasıyla tanışmaya hazır mısınız? İşte Kayseri'yi keşfetmek için doğru adrestesiniz!</p>
+        <ul>
+    </section>
+
+    <body background="https://plus.unsplash.com/premium_photo-1701158347546-4bd6c1a25154?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></body>
+
+    <section id="hakkimizda">
+        <h2>Hakkımızda</h2>
+        <ul>
+        <p>Kayseri, Türkiye'nin İç Anadolu Bölgesi'nde, Kapadokya'nın batısında yer alır. Binlerce yıllık tarihi ve kültürel mirasıyla ziyaretçilerini büyüleyen bir il.</p>
+        <ul>
+    </section>
+
+    <section id="dogal-guzellikler">
+        <h2>Doğal Güzellikler</h2>
+        <p>Kayseri doğal güzellikleri ile oldukça dikkat çeken bir şehirdir, işte doğal güzellikleri:</p>
+        <ul>
+          <a target="_blank" href="https://tr.wikipedia.org/wiki/Erciyes">Erciyes Dağı:</a> Günümüzde aktif olmayan bir yanardağdır. Şehrin 25 kilometre güneybatısında bulunan dağ, İç Anadolu Bölgesi’nin en yüksek dağıdır. Aktif olduğu son dönemin milattan önce 253 yılı olduğu bilinen dağ, 3 bin 300 kilometrelik bir alanı kaplar. Zirvesi 3 bin 917 metre olan Erciyes Dağı, dağcılar başta olmak üzere doğa sporu sevenlerin akın ettiği doğal güzelliklerden biridir. Son olarak belirtelim ki Kayseri’de gezilecek yerler listesinin başını çeken Erciyes Dağı, aktif bir volkanik dağ olduğu dönemlerdeki patlamaları sonucu Kapadokya’daki meşhur peribacaları oluşmuştur.</p> 
+          <a target="_blank" href="https://tr.wikipedia.org/wiki/Kapuzba%C5%9F%C4%B1_%C5%9Eelaleleri">Kapuzbaşı Şelalesi:</a> Kayseri gezilecek doğal yerler listesinde mutlaka yer alması gereken yerlerden biridir. Yahyalı ilçesinde konumlanan bu doğal güzellik, dünyanın en yüksek ikinci şelalesidir. Büyüleyici bir güzelliği bulunan Kapuzbaşı şelalesi, Victoria Şelalesi’nden 100, Niagara Şelalesi’nden 55, İmarat Şelalesi’nden 25, Düden Şelalesi’nden ise 25 metre yüksektir. Şehir merkezinden 165 kilometre uzaklıkta bulunan Kapuzbaşı Şelalesi, Kayseri gezilecek doğal yerler listesinin en önemli noktalarından biridir.</p>
+          <a target="_blank" href="https://www.kayserianadoluhaber.com.tr/yesilkoy-selalesi-kayseri-nin-sakli-cenneti/98047/">Yeşilköy Şelalesi:</a> Kayseri gezilecek yerler listesine eklenmesi gereken bir diğer şelale olan bu doğal güzellik, ismini aldığı Yeşilköy ilçesine yalnızca 3 kilometre uzaklıkta bulunur. 20 metre yükseklikten dökülen şelale, çevresindeki piknik alanlarıyla da sıklıkla Kayseri’de gezilecek yerler listesine eklenir. Piknik yapmaya müsait alanlar, çocuklu aileler başta olmak üzere pek çok kişi tarafından sevilir.</p>
+          <a target="_blank" href="https://www.kulturportali.gov.tr/turkiye/kayseri/gezilecekyer/soganli-vadisi">Soğanlı Vadisi:</a>Doğal güzellikler bakımından oldukça zengin olan Kayseri’de gezilecek doğal yerlerin bir diğeri ise Soğanlı Vadisi’dir. Doğal güzelliğinin yanı sıra tamamı kayadan oyma mağara, güvercinlik, barınak, kilise ve manastır gibi güçlü tarihi ögelere de ev sahipliği yapar.</p>
+          <a target="_blank" href="https://tr.wikipedia.org/wiki/Sultansazl%C4%B1%C4%9F%C4%B1_Mill%C3%AE_Park%C4%B1">Sultansazlığı Millî Parkı:</a> 1971 yılından beri koruma altında olan bu bölge, Kayseri’de gezilecek doğal yerler listesinin başında gelir. İçerisinde 301 farklı kuş türü bulunan bu bölge, Kayseri gezilecek doğal yerler arasında doğayla iç içe vakit geçirilebilecek yerlerdendir. Kayseri gezilecek doğal yerler listesine eklenmesi gereken bu bölge, Türkiye’nin en büyük ikinci tatlı su bataklığına ev sahipliği yapar. Sultan Sazlığı’nı gezmek için bahar ve yaz ayları daha uygundur.</p>
+        <ul>
+      </section>
+
+    <section id="tarihi-ve-kulturel-miras">
+        <h2>Tarihi ve Kültürel Miras</h2>
+        <p>Kayseri Tarihi ve Kültürü oldukça zengin bir şehirdir, işte Kayseri'nin tarihi ve kültürel mirası:</p>
+        <ul>
+           <a target="_blank" href="https://tr.wikipedia.org/wiki/Kayseri_Kalesi">Kayseri Kalesi:</a> Kayseri gezilecek yerler listesinin ilk sıralarında bulunan Kayseri Kalesi, şehrin simgelerindendir. Bir iç kale ve dış surlardan oluşan bu tarihi yapı, günümüzde turistik cazibe merkezlerinden biridir. Dönem dönem yenileme çalışmalarıyla restore edilen Kayseri Kalesi, Bizans İmparatoru Justinianus tarafından yaptırılmıştır.</p>
+           <a target="_blank" href="https://kayseri.ktb.gov.tr/TR-55033/ahi-evran-esnaf-ve-sanatkarlar-muzesi.html">Ahi Evran Esnaf ve Sanatkarlar Müzesi:</a>Ahiliğin kurucusu kabul edilen ve 13’üncü yüzyılın başlarında Horosan’dan Kayseri’ye gelen Ahi Evran’ın kişisel eşyalarının sergilendiği müzedir. Esnaf ve sanatkarları Anadolu’da ilk örgütleyen kişi olarak bilinen Ahi Evran, esnaf kültürünün oluşmasına da büyük katkı sağlamış isimlerdendir.</p>
+           <a target="_blank" href="https://www.kulturportali.gov.tr/turkiye/kayseri/gezilecekyer/gupgupoglu-konagi-etnografya-muzesi">Etnografya Müzesi ve Güpgüpoğlu Konağı:</a>Melikgazi ilçesinde bulunan müze binasının inşası 1418 yılında başlamış, günümüzdeki halini ise 18’inci yüzyılda almıştır. Selçuklu ve Osmanlı dönemlerine ait eserlerin sergilendiği müze, dönemin etnografik yapısını yansıtan Kayseri tarihi yerlerinden biridir.</p>
+           <a target="_blank" href="https://tr.wikipedia.org/wiki/Hunad_Hatun_K%C3%BClliyesi">Hunat Hatun Külliyesi:</a> Kayseri gezilecek yerler listesinin olmazsa olmazlarından biridir. Tarihi 13. yüzyıla kadar uzanan külliye, Kayseri’nin Kocasinan ilçesinde bulunur. Cami, medrese, türbe ve hamamdan oluşan bu külliye, Anadolu Selçuklu Devleti döneminde inşa edilmiştir. Kayseri gezilecek tarihi yerler arasında önemli bir yere sahiptir. Külliyenin içinde yer alan Hunat Hatun Türbesi, 1237 yılında Melik Gazi tarafından yaptırılmıştır.</p>
+           <a target="_blank" href="https://tr.wikipedia.org/wiki/D%C3%B6ner_K%C3%BCmbet">Döner Kümbet:</a>Kayseri tarihi yerler listesinin en önemli noktalarından biri olan bu kümbet, 1276 yılında yapılmıştır. 12 yüzeyi bulunan ve 10 yüzeyi taş işçiliğinin en güzel örneklerinden biri olarak sayılan işlemelerle -geometrik şekillerle- kaplı olan kümbet, kesinlikle görülmesi gereken noktalardandır. </p>
+           <a target="_blank" href="https://muze.gov.tr/muze-detay?SectionId=KAT01&DistId=MRK">Kayseri Atatürk Evi Müzesi:</a>Esasında Kayseri turistik yerler listesinin bir unsuru olan bu müze, 19’uncu yüzyıl Geç Osmanlı Mimari Dönemi’ne ait olduğundan Kayseri tarihi yerler listesinde yer alır.</p>
+           <a target="_blank" href="https://www.selcuklu.bel.tr/ilcemiz/detay/300/gevale-kalesi.html">Gevale Kalesi:</a> Kayseri’nin Melikgazi ilçesinde yer alan Gevale Kalesi, şehir merkezine 40 kilometre uzaklıkta bulunur. Kayseri gezilecek tarihi yerler arasında önemli bir yere sahip olan bu kale, 1100 yılında Bizans İmparatoru I. Alexios Komnenos tarafından yaptırılmıştır. Günümüzde kalıntılar halinde bulunan Gevale Kalesi, tarih severlerin ilgisini çeker.</p>
+           <a target="_blank" href="https://www.kayseri.bel.tr/kesfet-listeleme/ali-dagi-yeralti-sehri">Ali Dağı Yeraltı Şehri:</a>Her ne kadar Nevşehir ili yeraltı kentleriyle meşhursa da antik dönemde Kapadokya Bölgesi’ne dahil olan Kayseri de yeraltı şehirleri ile öne çıkan yaşam merkezlerindendir. Kayseri tarihi yerler listesinde mutlaka yer alması gereken bu yeraltı şehri, Nevşehir’dekiler gibi bir “yaşam merkezi” kisvesinde bulunmasa da tarihseverlerce mutlaka ziyaret edilmelidir. </p>
+           <a target="_blank" href="http://www.kocasinan.gov.tr/selcuklu-muzesi">Erciyes Üniversitesi Tarih Müzesi:</a> Kayseri’de gezilecek yerler listesinin en önemli noktalarından biridir. 1978 yılında kurulan bu müze, Kayseri’nin Kocasinan ilçesinde yer alır. İçerisinde arkeolojik ve etnografik eserler barındıran müze, tarih severlerin ilgisini çeker. Müze, tarih boyunca Kayseri’de yaşamış olan medeniyetlerin izlerini taşır.</p>
+           <a target="_blank" href="https://kvmgm.ktb.gov.tr/TR-295681/kayseri-muze-mudurlugu.html">Kayseri Arkeoloji Müzesi:</a> Kayseri’de gezilecek yerler listesinin başında gelen müze, 1969 yılında açılmıştır. Kayseri’nin Kocasinan ilçesinde bulunan bu müze, arkeolojik ve etnografik eserlerin sergilendiği bir yerdir. İçerisinde Hitit, Frig, Urartu ve Roma dönemine ait eserler bulunan müze, tarih severlerin ilgisini çeker.</p>
+           <ul>
+     </section>
+
+    <section id="mutfak-lezzeti">
+        <h2>Mutfak Lezzeti</h2>
+        <p>Kayseri mutfağı, zengin ve lezzetli yemekleriyle ünlüdür. İşte Kayseri'de tadabileceğiniz bazı lezzetler:</p>
+        <ul>
+            <a target="_blank" href="https://www.nefisyemektarifleri.com/kayseri-mantisi-tarifi-517602/">Kayseri Mantısı:</a> İncecik hamurun içerisine kıyma konularak hazırlanan mantı, Kayseri'nin en meşhur yemeğidir. Üzerine yoğurt ve salçalı sos dökülerek servis edilir.</p>
+            <a target="_blank" href="https://tr.wikipedia.org/wiki/Past%C4%B1rma">Kayseri Pastırması:</a> Kayseri'nin ünlü pastırması, tuzlanıp kurutulmuş etten yapılır. Çemen adı verilen özel bir baharat karışımıyla kaplanır.</p>
+            <a target="_blank" href="https://www.develi.bel.tr/bilgi/develi-civiklisi">Develi Cıvıklısı:</a>Kayseri’de ne yenir sorusunun bir başka çok lezzetli cevabı da develi cıvıklı pidedir. Kuzu ve dana etlerinin karışımından oluşan satır kıyma, soğan ve biber başta olmak üzere domates ve tuzla tatlandırılır. Pide hamurunun üzerine serildikten sonra odun fırınında pişirilir. En lezzetli Kayseri yemeklerinden biridir.</p>
+            <a target="_blank" href="https://www.lezzet.com.tr/yemek-tarifleri/hamurisi-tarifleri/manti-tarifleri/tepsi-mantisi#:~:text=Mant%C4%B1%20denildi%C4%9Finde%20ilk%20akl%C4%B1m%C4%B1za%20gelen,Anadolu'da%20s%C4%B1k%20s%C4%B1k%20t%C3%BCketilir.">Tepsi Mantısı:</a>Bir başka Kayseri meşhur yemeği olan tepsi mantısı da Kayseri mantısının bir başka türevidir. İsmini, tepsiye dizilerek pişirilmesinden alır. Salçalı sosla fırında pişirilen ve yoğurtla servis edilen bu Kayseri yemeği, özellikle kalabalık Kayseri seyahatlerinde sofraya ilk sipariş verilmesi gereken yemeklerdendir.</p>
+            <a target="_blank" href="https://tr.wikipedia.org/wiki/Sucuk">Sucuk:</a> Kayseri'nin bir diğer meşhur yiyeceği sucuk, baharatlı ve kurutulmuş bir et ürünüdür.</p>
+            <a target="_blank" href="https://tr.wikipedia.org/wiki/Ya%C4%9Flama_(yemek)">Yağlama:</a> Kat kat açılan hamurun arasına kıymalı harç konularak hazırlanan yağlama, Kayseri'nin sevilen yemeklerinden biridir.</p>
+            <a target="_blank" href="https://www.nefisyemektarifleri.com/kayseri-nevzine-tatlisi-tarifi/">Nevzine Tatlısı:</a> Tahinli ve pekmezli bir tatlı olan nevzine, Kayseri'de sıklıkla tüketilen bir tatlıdır.</p>
+            <a target="_blank" href="https://www.nefisyemektarifleri.com/kayserinin-meshur-gilaborusu/">Kayseri’nin Meşhur Gilaborusu:</a>Kayseriye özgü gilaborumuzu geniş bir kaba alıyoruz ,10 dk suda bekletiyoruz, daha sonra süzüp kevgirle yada meyve sıkacağıyla eziyoruz, tadı acı gelenler şekerle tatlandırabilir. Çok faydalıdır yazın toplanıp bidonlara su ile basılır ve kisin afiyetle içilir. Böbrek taşı olanlara çok iyi gelir taş düşürücüdür diyebiliriz</p>
+        </ul>
+    </section>
+
+    <section id="hava-durumu">
+        <h2>Hava Durumu</h2>
+        <ul>
+        <p>Kayseri 5 gunluk hava durumu</p>
+        <script language="javascript" src="https://havadurumu15gunluk.xyz/sitene-ekle/1/havadurumu2.js?il=kayseri&ilce=kayseri&w=1000&h=450&title=dddddd&bg=2e5789&ids=630"></script><noscript><a href="https://havadurumu15gunluk.xyz/havadurumu/808/kayseri-hava-durumu-15-gunluk.html">Kayseri Hava durumu</a>18-06-2024</noscript>
+        <ul>
+    </section>
+
+    <section id="Grafik">
+        <h2>Grafik</h2>
+        <p>Kayseri Yıla Göre Turist Sayısı</p>
+        <div class="grafik">
+            
+            <div>
+                <canvas id="myChart"></canvas>
+              </div>
+              
+              <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+              
+              <script>
+                const ctx = document.getElementById('myChart');
+              
+                new Chart(ctx, {
+                  type: 'bar',
+                  data: {
+                    labels: ['2000', '2005', '2010', '2015', '2020', '2021',"2022","2023"],
+                    datasets: [{
+                      label: ' Turist Sayısı',
+                      data: [400000, 450000, 500000, 700000, 300000,450000, 600000,850000],
+                      borderWidth: 3
+                    }]
+                  },
+                  options: {
+                    scales: {
+                      y: {
+                        beginAtZero: true
+                      }
+                    }
+                  }
+                });
+              </script>
+
+    </section>
+
+    <section id="Fotoğraflar">
+        <h2>Fotoğraflar</h2>
+        <div class="photo-gallery">
+            <figure class="gallery-item">
+                <img class="gallery-img" src="https://www.izbos.com/upload/galeri/erciyes.jpg" alt="Erciyes Dağı">
+                <figcaption>Erciyes Dağı</figcaption>
+            </figure>
+            <figure class="gallery-item">
+                <img class="gallery-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Elif_%C5%9Eelalesi.jpg/1024px-Elif_%C5%9Eelalesi.jpg" alt="Kapuzbaşı Şelalesi">
+                <figcaption>Kapuzbaşı Şelalesi</figcaption>
+            </figure>
+            <figure class="gallery-item">
+                <img class="gallery-img" src="https://sozcuo01.sozcucdn.com/wp-content/uploads/2023/06/14/yahyali.aa_-1.jpeg" alt="Yeşilköy Şelalesi">
+                <figcaption>Yeşilköy Şelalesi</figcaption>
+            </figure>
+            <figure class="gallery-item">
+                <img class="gallery-img" src="https://cdn1.ntv.com.tr/gorsel/ETtbl2yvzUGW0EPB2usE9w.jpg?width=1000&mode=both&scale=both&v=1590308936096" alt="Sultan Sazlığı">
+                <figcaption>Sultan Sazlığı</figcaption>
+            </figure>
+            <figure class="gallery-item">
+                <img class="gallery-img" src="https://www.kulturportali.gov.tr/contents/images/23022013_3345387f-bc7f-4f07-8c02-bdf33496536d.JPG" alt="Soğanlı Vadisi">
+                <figcaption>Soğanlı Vadisi</figcaption>
+            </figure>
+            <figure class="gallery-item">
+                <img class="gallery-img" src="https://www.kayserigezi.net/d/fg/kayseri-kalesi-ve-surlari.jpg" alt="Kayseri Kalesi">
+                <figcaption>Kayseri Kalesi</figcaption>
+            </figure>
+            <figure class="gallery-item">
+                <img class="gallery-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Hunat_Hatun_K%C3%BClliyesi_02.jpg/800px-Hunat_Hatun_K%C3%BClliyesi_02.jpg" alt="Hunat Hatun Külliyesi">
+                <figcaption>Hunat Hatun Külliyesi</figcaption>
+            </figure>
+            <figure class="gallery-item">
+                <img class="gallery-img" src="https://www.kulturportali.gov.tr/repoKulturPortali/large/23022013/e1bf96cc-52d3-489a-b6eb-9003e9ae773e.JPG?format=jpg&quality=50" alt="Ahi Evran Esnaf ve Sanatkarlar Müzesi">
+                <figcaption>Ahi Evran Esnaf ve Sanatkarlar Müzesi</figcaption>
+            </figure>
+            <figure class="gallery-item">
+                <img class="gallery-img" src="https://www.kulturportali.gov.tr/repoKulturPortali/large/23022013/7d5b3a96-51d9-4497-9f93-ed524f367fd0.JPG?format=jpg&quality=50" alt="Etnografya Müzesi ve Güpgüpoğlu Konağı">
+                <figcaption>Etnografya Müzesi ve Güpgüpoğlu Konağı</figcaption>
+            </figure>
+            <figure class="gallery-item">
+                <img class="gallery-img" src="https://www.kulturportali.gov.tr/repoKulturPortali/large/23022013/e7a5a808-0705-4c4e-b8fc-5b3f87ee7be4.JPG?format=jpg&quality=50" alt="Atatürk Müzesi">
+                <figcaption>Atatürk Müzesi</figcaption>
+            </figure>
+            <figure class="gallery-item">
+                <img class="gallery-img" src="https://dunyamhastanesi.com/upload/16793107800.png" alt="Şah Cihan Hatun Kümbeti">
+                <figcaption>Şah Cihan Hatun Kümbeti</figcaption>
+            </figure>
+            <figure class="gallery-item">
+                <img class="gallery-img" src="https://www.kayseri.bel.tr/uploads/kesfet/onemli-mekanlar/ali_dagi_%20yeralti_sehri_1.jpg" alt="Ali Dağı Yeraltı Şehri">
+                <figcaption>Ali Dağı Yeraltı Şehri</figcaption>
+            </figure>
+            <figure class="gallery-item">
+                <img class="gallery-img" src="https://www.lezzetmanti.com/wp-content/uploads/2020/10/kayseri-mantisi.jpg" alt="Kayseri Mantısı">
+                <figcaption>Kayseri Mantısı</figcaption>
+            </figure>
+            <figure class="gallery-item">
+                <img class="gallery-img" src="https://i.lezzet.com.tr/images-xxlarge-recipe/tepsi-mantisi-e37456dc-e9b9-4487-8c49-aff1ae248f5f.jpg" alt="Tepsi Mantısı">
+                <figcaption>Tepsi Mantısı</figcaption>
+            </figure>
+            <figure class="gallery-item">
+                <img class="gallery-img" src="https://www.pastirmakayseri.com/content/image/95/antrikot-pastirma-kayseri-jpg?optimize=False" alt="Pastırma">
+                <figcaption>Pastırma</figcaption>
+            </figure>
+            <figure class="gallery-item">
+                <img class="gallery-img" src="https://harbiyiyorum.com/wp-content/uploads/develi-civiklisi-ismail-usta-ft.jpg" alt="Develi Cıvıklı Pidesi">
+                <figcaption>Develi Cıvıklı Pidesi</figcaption>
+            </figure>
+            <figure class="gallery-item">
+                <img class="gallery-img" src=https://i.nefisyemektarifleri.com/2016/03/18/kayserinin-meshuuur-gilaborusu.jpg alt="kayserinin-meshur-gilaborusu">
+                <figcaption>Kayseri Gilaborusu</figcaption>
+            </figure>
+            
+        </div>
+    </section>
+    <title>Button Tasarımı</title>
+    <style>
+      
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+      }
+  
+      
+      .button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #333;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+      }
+  
+      
+      .button:hover {
+        background-color: #555;
+      }
+  
+     
+      #yukari {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #333;
+        color: white;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        font-size: 24px;
+        cursor: pointer;
+        border-radius: 50%;
+        display: none;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: background-color 0.3s ease, box-shadow 0.3s ease;
+      }
+  
+     
+      #yukari:hover {
+        background-color: aqua;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      }
+    </style>
+  </head>
+  <body>
+  
+  
+  <div id="yukari" onclick="scrollToTop()">
+    &#8593;
+  </div>
+  
+  <script>
+    
+    window.onscroll = function() {scrollFunction()};
+  
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("yukari").style.display = "block";
+      } else {
+        document.getElementById("yukari").style.display = "none";
+      }
+    }
+  
+   
+    function scrollToTop() {
+      document.body.scrollTop = 0; 
+      document.documentElement.scrollTop = 0; 
+    }
+  </script>
+  
+  </body>
+  </html>
+    
+
+    <script>
+      
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        
+        document.querySelectorAll('.bar').forEach(bar => {
+            bar.addEventListener('mouseover', function() {
+                this.style.opacity = '0.8';
+                this.style.transform = 'scale(1.05)';
+            });
+
+            bar.addEventListener('mouseout', function() {
+                this.style.opacity = '1';
+                this.style.transform = 'scale(1)';
+            });
+        });
+
+        
+        document.querySelectorAll('.gallery-item img').forEach(image => {
+            image.addEventListener('click', function() {
+                const overlay = document.createElement('div');
+                overlay.style.position = 'fixed';
+                overlay.style.top = '0';
+                overlay.style.left = '0';
+                overlay.style.width = '100%';
+                overlay.style.height = '100%';
+                overlay.style.backgroundColor = 'rgba(0,0,0,0.8)';
+                overlay.style.display = 'flex';
+                overlay.style.alignItems = 'center';
+                overlay.style.justifyContent = 'center';
+                overlay.style.cursor = 'pointer';
+
+                const img = document.createElement('img');
+                img.src = this.src;
+                img.style.maxWidth = '90%';
+                img.style.maxHeight = '90%';
+
+                overlay.appendChild(img);
+                document.body.appendChild(overlay);
+
+                overlay.addEventListener('click', function() {
+                    document.body.removeChild(overlay);
+                });
+            });
+        });
+    </script>
+
+  </body>
+</html>
